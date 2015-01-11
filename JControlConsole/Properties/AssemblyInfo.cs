@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("JControlConsole")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Handles Android Connection")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Mr Smithy  x")]
 [assembly: AssemblyProduct("JControlConsole")]
-[assembly: AssemblyCopyright("Copyright ©  2015")]
+[assembly: AssemblyCopyright("Copyright ©  2015 Mr Smithy x")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
