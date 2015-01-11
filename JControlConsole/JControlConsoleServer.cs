@@ -795,7 +795,10 @@ namespace JControlConsole
                     }
                     else
                     {
-                        client.Client.Send(ASCIIEncoding.ASCII.GetBytes("You made connection to the app but we don't speak the same language :("));
+                        resTemp = new ResponseTemplate("ParseError", "You made connection to the app but we don't speak the same language :(", null);
+                        string str = ParseRequest.MakeJson(resTemp);
+                        Console.WriteLine(str);
+                        client.Client.Send(ASCIIEncoding.ASCII.GetBytes(str));
                     }
                 }
             }

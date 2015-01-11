@@ -22,7 +22,7 @@ namespace JControlConsoleSample
         private void button1_Click(object sender, EventArgs e)
         {
             jccs = new JControlConsoleServer(this, 1337);
-            this.Text = "Accepting Connections At" + jccs.getIP() + ": " + jccs.getPort().ToString();
+            this.Text = "Accepting Connections At: " + jccs.getIP() + ":" + jccs.getPort().ToString();
             jccs.Initialize();
 
         }
